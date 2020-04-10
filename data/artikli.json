@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "naziv" : "Artikal 1",
+        "cena1" : 10,
+        "cena2" : 20
+    },
+    {
+        "id" : 2,
+        "naziv" : "Artikal 2",
+        "cena1" : 11,
+        "cena2" : 21
+    },
+    {
+        "id" : 3,
+        "naziv" : "Artikal 3",
+        "cena1" : 12,
+        "cena2" : 22
+    },
+    {
+        "id" : 4,
+        "naziv" : "Artikal 4",
+        "cena1" : 13,
+        "cena2" : 23
+    },
+    {
+        "id" : 5,
+        "naziv" : "Artikal 5",
+        "cena1" : 14,
+        "cena2" : 24
+    }
+]

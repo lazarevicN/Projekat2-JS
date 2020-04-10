@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekat 2 - JS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <input type="button" value="Ubaci" id="ubaciTaster" class="p-2 col-4 mt-4 ml-5" />
+        </div>
+        <div class="row">
+            <table class="mt-5 ml-5 col-10">
+                <thead>
+                    <tr>
+                        <td class="border border-dark">Artikli</td>
+                        <td class="border border-dark">Kolicina</td>
+                        <td class="border border-dark">Cena</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody id="korpaArtikala">
+
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <div class="d-flex align-items-center col-5">
+                <h3 class="ml-5 mt-5" id="divUkupneCene">Ukupna cena: <span id="ukupnaCena"></span></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5">
+                <input type="button" value="Posalji" id="tasterPosalji" class="p-2 mt-5 ml-5"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5">
+                <a href="dokumentacija.docx" class="text-decoration-none"><p class="ml-5 mt-5">Dokumentacija</p></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
