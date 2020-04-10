@@ -148,6 +148,7 @@ function izracunajUkupnuCenuKorpe(){
 
 function izbaciIzKorpe(){
     $(this).parent().parent().remove()
+    izracunajUkupnuCenuKorpe()
 }
 
 function ispisNovogRedaTabele(artikli){
